@@ -11,7 +11,6 @@ Syntactic, Lexical, Rhetorical Structure Theory features, Interaction features.
 
 ### 2. Bias Labeling by group-based analysis: 
 - I apply tertile binning to each linguistic feature, creating three subgroups: Low, Medium, High.
-
 - Each essay is assigned to these subgroups separately for each feature based on its feature value.
 
 - For each subgroup, I compute the mean discrepancy between human scores and LLM scores. Then, I calculate bias magnitude for each linguistic feature by difference between the maximum and minimum group-level mean discrepancies.
